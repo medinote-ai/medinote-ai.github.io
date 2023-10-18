@@ -1,0 +1,43 @@
+
+
+/* Fonts ---------------------------------------------------------------------------------------------------*/ 
+@font-face {
+    font-family: 'LaNord-Medium';
+    src:
+      url('assets/fonts/LaNord-Medium.woff') format('woff');
+      font-weight: 300;
+  }
+
+body {
+
+}
+
+/* Navigation ----------------------------------------------------------------------------------------------*/ 
+
+nav{
+
+}
+
+/* Main ----------------------------------------------------------------------------------------------------*/ 
+
+header {
+  margin: auto;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-family: 'LaNord-Medium';
+  font-size: 200px;
+  text-align: center;
+  color: rgba(0, 0, 128, 1);
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-family: 'LaNord-Medium';
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
