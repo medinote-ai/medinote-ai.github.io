@@ -1,16 +1,18 @@
 
-
 /* Fonts ---------------------------------------------------------------------------------------------------*/ 
 @font-face {
-    font-family: 'LaNord-Medium';
+    font-family: 'LaNord';
     src:
       url('assets/fonts/LaNord-Medium.woff') format('woff');
       font-weight: 300;
   }
 
-body {
-
-}
+@font-face {
+    font-family: 'Cereal';
+    src:
+      url('assets/fonts/AirbnbCereal\ W\ Lt.woff2') format('woff');
+      font-weight: 100;
+  }
 
 /* Navigation ----------------------------------------------------------------------------------------------*/ 
 
@@ -20,14 +22,10 @@ nav{
 
 /* Main ----------------------------------------------------------------------------------------------------*/ 
 
-header {
-  margin: auto;
-}
-
 h1 {
   padding: 0;
   margin: 0;
-  font-family: 'LaNord-Medium';
+  font-family: 'LaNord';
   font-size: 200px;
   text-align: center;
   color: rgba(0, 0, 128, 1);
@@ -36,8 +34,338 @@ h1 {
 h2 {
   padding: 0;
   margin: 0;
-  font-family: 'LaNord-Medium';
+  font-family: 'LaNord';
   font-size: 20px;
   text-align: center;
   color: rgb(0, 0, 0);
+}
+
+timeline__storySlider .slick-slide {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  height: inherit;
+  margin-right: 12px;
+  margin-left: 12px;
+  -webkit-user-select: none;
+} 
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-slide {
+  float: left;
+  min-height: 1px;
+}
+
+.website-medinote {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.website-medinote .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 2613px;
+  position: relative;
+}
+
+.website-medinote .section-4 {
+  width: 1920px;
+  height: 411px;
+  top: 2202px;
+  background-color: #f3f3f9;
+  position: absolute;
+  left: 0;
+}
+
+.website-medinote .section-3 {
+  width: 1920px;
+  height: 873px;
+  top: 1329px;
+  position: absolute;
+  left: 0;
+}
+
+.website-medinote .frame {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  top: 357px;
+  left: 448px;
+  display: inline-flex;
+  position: relative;
+}
+
+.website-medinote .headline-about {
+  position: relative;
+  width: 833px;
+  margin-top: -1px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.website-medinote .paragraph-lorem {
+  position: relative;
+  width: 1025px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #222222;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.website-medinote .section-2 {
+  width: 1920px;
+  height: 249px;
+  top: 1080px;
+  position: absolute;
+  left: 0;
+}
+
+.website-medinote .google {
+  position: absolute;
+  width: 202px;
+  height: 152px;
+  top: 49px;
+  left: 1156px;
+  object-fit: cover;
+}
+
+.website-medinote .logo-charite {
+  position: absolute;
+  width: 160px;
+  height: 58px;
+  top: 95px;
+  left: 257px;
+  object-fit: cover;
+}
+
+.website-medinote .element-slider-logo {
+  position: absolute;
+  width: 214px;
+  height: 84px;
+  top: 87px;
+  left: 517px;
+  object-fit: cover;
+}
+
+.website-medinote .element-FHP-logo {
+  position: absolute;
+  width: 225px;
+  height: 40px;
+  top: 105px;
+  left: 831px;
+  object-fit: cover;
+}
+
+.website-medinote .medical-park-logo {
+  position: absolute;
+  width: 205px;
+  height: 58px;
+  top: 87px;
+  left: 1458px;
+  object-fit: cover;
+}
+
+.website-medinote .section-1 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.website-medinote .background-image {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+}
+
+.website-medinote .overlap-group {
+  position: relative;
+  height: 1080px;
+}
+
+.website-medinote .image-of-doctor {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+}
+
+.website-medinote .image-midjourney {
+  position: absolute;
+  width: 1920px;
+  height: 1088px;
+  top: 0;
+  left: 0;
+}
+
+.website-medinote .grey-overlay {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  background-color: #77778b66;
+}
+
+.website-medinote .title {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  position: absolute;
+  top: 324px;
+  left: 128px;
+}
+
+.website-medinote .heading-the-doctor {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: 96px;
+}
+
+.website-medinote .heading-medinote {
+  position: relative;
+  width: 636px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.website-medinote .header {
+  display: inline-flex;
+  align-items: center;
+  gap: 846px;
+  position: absolute;
+  top: 124px;
+  left: 128px;
+  background-color: transparent;
+}
+
+.website-medinote .left-sided-header {
+  display: inline-flex;
+  align-items: center;
+  gap: 69px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.website-medinote .frame-2 {
+  align-items: center;
+  gap: 12px;
+  flex: 0 0 auto;
+  display: inline-flex;
+  position: relative;
+}
+
+.website-medinote .icon-logo {
+  position: relative;
+  width: 44.5px;
+  height: 44.5px;
+}
+
+.website-medinote .overlap-group-2 {
+  position: relative;
+  width: 26px;
+  height: 36px;
+  top: 3px;
+  left: 9px;
+}
+
+.website-medinote .subtract {
+  position: absolute;
+  width: 19px;
+  height: 34px;
+  top: 0;
+  left: 0;
+}
+
+.website-medinote .img {
+  width: 24px;
+  height: 30px;
+  top: 5px;
+  position: absolute;
+  left: 0;
+}
+
+.website-medinote .subtract-2 {
+  width: 26px;
+  height: 25px;
+  top: 12px;
+  position: absolute;
+  left: 0;
+}
+
+.website-medinote .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.website-medinote .section-heading {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #efefef;
+  font-size: 24px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.website-medinote .right-sided-header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #000080;
+  border-radius: 8px;
+}
+
+.website-medinote .button-subscribe-to {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #efefef;
+  font-size: 24px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
 }
